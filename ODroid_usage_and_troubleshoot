@@ -1,0 +1,14 @@
+# ODroid Basic Instructions and troubleshoot guide
+
+1. Always set date after booting to ODroid (sudo date DDMMhhmmYYYY.ss)
+2. Whenever you connect to a new Network, "always allow it for access to all users":
+	GUI> Go To Edit Connections > Edit the Current Wi-Fi > Allow all users to connect to this network
+3. Whenever you change the wireless module on an ODroid, Wi-Fi credentials have to be added separately for the new module. 
+Again do not forget to "allow all users to connect to the network".
+4. Wireless Ad-Hoc is supported only by Wireless Interfaces having 802.11 b/g/n/ac standards (need not be true)
+5. A backup image of this minimal but FULLY functional Odroid has been saved. This allows us space to experiment with our Ubuntu images.
+6. VIMP: When using a cloned image, remember to delete .ssh direcctory before starting to use SSH to avoid identity conflicts.
+
+FOR FUTURE:
+1. A boot-time script needs to be written to start OLSRD at the boot time itslef. Time may also be update at boot time.
+2. To connect to Ad-Hoc Network of ODroids, we have make the same changes to "interfaces" file (explained in Setup Instructions) in our laptops. This will however, stop internet connectivity to the laptop. When configured to connect to the Ad-Hoc network, one may connect a USB Wi-Fi Adapter to connect to Internet. 
