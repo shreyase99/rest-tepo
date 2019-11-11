@@ -31,13 +31,14 @@
  cd ns3
  wget https://www.nsnam.org/releases/ns-allinone-3.29.tar.bz2
  tar xjf ns-allinone-3.29.tar.bz2
- cd ns-allinone-3.29/
+ cd 
  ls
 
  #Build
  ./build.py --enable-examples --enable-tests
 
  #Waf-Build
+ cd ~/ns3/ns-allinone-3.29/ns-3.29
  ./waf -d debug --enable-examples --enable-tests configure
 
  #Testing
