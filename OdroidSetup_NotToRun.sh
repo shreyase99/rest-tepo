@@ -1,5 +1,9 @@
 # Bash: THIS IS NOT A EXECUTABLE SCRIPT. THIS IS AN INSTRUCTABLE.
 
+# UbuntuMATE OS is used here. 
+# UbuntuMATE is probably the only relevant distro of Ubuntu that provides GUI on ARM platform, 
+# which also has its 16.04 distribution available.
+
 # After First Login, Connect to Wi-fi
 
 # 1. Basics
