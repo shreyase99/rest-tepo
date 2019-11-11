@@ -56,7 +56,8 @@ sudo apt-get install python3-pip
 
 # ROS-Kinetic
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-
+# GPG Key Needs to be added
+curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654' | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install ros-kinetic-desktop
 sudo rosdep init
