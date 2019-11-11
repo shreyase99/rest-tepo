@@ -31,7 +31,7 @@
  cd ns3
  wget https://www.nsnam.org/releases/ns-allinone-3.29.tar.bz2
  tar xjf ns-allinone-3.29.tar.bz2
- cd 
+ cd ns-allinone-3.29
  ls
 
  #Build
